@@ -33,45 +33,31 @@ header {
 h1 {
   padding-top: 1px;
   text-align: center;
-  margin-top: 1px;
-  margin-bottom: 10px;
-  font-size: 2.5rem;
+  margin-block-end: 1px;
   color: yellow;
 }
 
 h2 {
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 100;
   color: yellow;
-  margin: 12px;
+  margin: 1px;
 }
 
-@media (min-width: 768px) {
-  h2 {
-    font-size: 1.5rem;
-  }
-}
 
 h3 {
-  font-size: 1rem;
   color: yellow;
   margin: 5px;
 }
 
-@media (min-width: 768px) {
-  h3 {
-    font-size: 1.2rem;
-  }
-}
 
 button {
   color: white;
   background-color: red;
   cursor: pointer;
-  width: 350px;
+  width: 310px;
   height: 71px;
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 800;
   margin: 5px auto;
   border-radius: 7px;
 }

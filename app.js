@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		displayState: function () {
 			var questionNumber = quiz.questionIndex + 1;
 			var totalQuestions = quiz.questions.length;
-			var showState = 'Page ' + questionNumber + ' of ' + totalQuestions;
+			var showState = 'Pagina ' + questionNumber + ' / ' + totalQuestions;
 			this.fillingWithText('page', showState);
 		},
 		showResults: function () {
