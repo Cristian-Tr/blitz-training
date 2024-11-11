@@ -1,84 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+html,
 body {
-  background-color: black;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: black;
 }
 
-header {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#survey {
-  background-color: blue;
-  padding: 1px;
-  margin: 0 auto;
-  width: 100%;
-  height: 630px;
-}
-
-@media (min-width: 768px) {
-  #survey {
-    padding: 1px;
-    width: 710px;
-    height: 503px;
-  }
-}
-
-h1 {
-  padding-top: 1px;
-  text-align: center;
-  margin-block-end: 1px;
-  color: yellow;
-}
-
-h2 {
-  font-weight: 100;
-  color: yellow;
-  margin: 1px;
-}
-
-
-h3 {
-  color: yellow;
-  margin: 5px;
-  font-weight: 100;
-}
-
-h4 {
-  font-weight: 100;
-  color: red;
-}
-
-
-button {
+h1, h2, h3 {
   color: white;
-  background-color: red;
-  cursor: pointer;
-  width: 310px;
-  height: 71px;
-  font-size: 1rem;
-  font-weight: 800;
-  margin: 5px auto;
-  border-radius: 7px;
+  z-index: 1000;
 }
 
-button:active {
-  background-color: green;
+
+
+#star {
+  z-index: 1000;
+ animation: rotation 12s infinite linear;
 }
 
-button:focus {
-  outline: none;
-}
-
-@media (min-width: 768px) {
-  button {
-    width: 430px;
-    height: 45px;
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
   }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+canvas {
+  margin-top: -550px;;
 }
