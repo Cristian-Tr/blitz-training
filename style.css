@@ -9,12 +9,14 @@ body {
 
 h1, h2, h3 {
   color: white;
+  text-align: center;
   z-index: 1000;
 }
 
 
 
 #star {
+  margin: auto;
   z-index: 1000;
  animation: rotation 12s infinite linear;
 }
