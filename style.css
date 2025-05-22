@@ -13,12 +13,17 @@ h1, h2, h3 {
   z-index: 1000;
 }
 
-
-
 #star {
   margin: auto;
+  margin-top: -10px;
   z-index: 1000;
  animation: rotation 12s infinite linear;
+}
+
+img {
+  width: 210px;
+  height: 210px;
+  z-index: 100;
 }
 
 @keyframes rotation {
