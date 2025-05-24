@@ -2,14 +2,14 @@ html,
 body {
   overflow: hidden;
   display: grid;
-  background: black;
+  background: white;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: white;
+  color: black;
   text-align: center;
   z-index: 1000;
 }
