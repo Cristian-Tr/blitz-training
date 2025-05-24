@@ -4,14 +4,14 @@
   }
   
   body {
-    background-color: black;
+    background-color: blue;
   }
   
   h3 {
     text-align: center;
   }
   
-  h5 {
+  h4, h5 {
     font-weight: 800;
   }
   
@@ -28,10 +28,10 @@
      }
 
   .title {
-    width: 98%;
+    width: 100%;
     text-align: center;
     margin: auto;
-    padding: 2px;
+    padding: 1px;
     color: white;
     background: red;
     border: 1px solid white;
@@ -50,7 +50,6 @@
     margin: auto;
     background: blue;
   }
-  
   
   @media (min-width: 768px) {
     .quiz {
@@ -78,13 +77,12 @@
     font-size: 1rem;
   }
   
-  
   .quizImage {
     padding: 1px;
   }
   
   .quizImage img {
-    max-width: 210px;
+    max-width: 251px;
     width: auto;
     margin: auto;
     display: block;
@@ -92,23 +90,23 @@
   }
   
   .options {
-    margin: 1px auto;
+    margin: auto;
   }
   
   .options>div>div {
-    margin: 1px auto;
+    margin: auto;
     width: 100%;
   }
   
-  .options>div>div>h5 {
+  .options>div>div>h4 {
     font-weight: 800;
     background: gold;
     text-align: center;
     color: red;
     margin: auto;
-    padding: 1px;
+    padding: 3px;
     border: 1px dotted white;
-    width: 93%;
+    width: 100%;
     cursor: pointer;
   }
   
@@ -121,7 +119,6 @@
   .input-mode input {
     width: 100%;
     padding: 5px;
-    font-size: 20px;
     border-radius: 5px;
     background: transparent;
     border: 2px solid blue;
@@ -138,8 +135,8 @@
   }
   
   .quest-num {
-    margin-top: .8rem;
-    font-size: .8rem;
+    margin-top: -4rem;
+    font-size: 1rem;
     color: red;
     text-align: center;
   }

@@ -3,7 +3,6 @@ body {
   height: 100%;
   overflow: hidden;
   display: grid;
-  place-items: center;
   background: black;
 }
 
@@ -15,15 +14,16 @@ h1, h2, h3 {
 
 #star {
   margin: auto;
-  margin-top: -10px;
+  margin-top: -15px;
   z-index: 1000;
  animation: rotation 12s infinite linear;
 }
 
 img {
-  width: 210px;
-  height: 210px;
+  width: 251px;
+  height: 251px;
   z-index: 100;
+  margin: auto;
 }
 
 @keyframes rotation {
