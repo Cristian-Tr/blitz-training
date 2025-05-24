@@ -1,12 +1,14 @@
 html,
 body {
-  height: 100%;
   overflow: hidden;
   display: grid;
   background: black;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3,
+h4 {
   color: white;
   text-align: center;
   z-index: 1000;
@@ -16,7 +18,7 @@ h1, h2, h3 {
   margin: auto;
   margin-top: -15px;
   z-index: 1000;
- animation: rotation 12s infinite linear;
+  animation: rotation 12s infinite linear;
 }
 
 img {
@@ -34,9 +36,4 @@ img {
   to {
     transform: rotateY(360deg);
   }
-}
-
-
-canvas {
-  margin-top: -550px;;
 }
