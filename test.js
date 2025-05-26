@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "6.png",
         interview: "Ce ar trebui să verifici înainte de a da click pe un link? ",
-        choices: ["Autenticitatea imaginilor care însoțesc linkul", "Dacă e scris corect gramatical", "Prezența unei o oferte în link", "Dacă linkul conduce către o adresă web sigură, ce începe cu: https:..."],
+        choices: ["Autenticitatea imaginilor care însoțesc linkul", "Dacă e scris corect gramatical", "Prezența unei o oferte în link", "Dacă URL-ul linkului începe cu https://..."],
         hint: "h _ _ p _ ",
         answer: 3
     },
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "8.png",
         interview: "Ce este un cookie în contextul navigării pe internet?",
-        choices: ["Un software ce conține viruși", "O aplicație de chat online", "Un fișier ce reține informații despre preferințele tale", "Un tip de reclamă pop-up"],
+        choices: ["Un software ce conține viruși", "O aplicație de chat online", "Un fișier cu date despre preferințele tale", "Un tip de reclamă pop-up"],
         hint: " s _ _ c _ t",
         answer: 2
     },
