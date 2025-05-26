@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var quiz = [{
         photo: "1.png",
         interview: "Ce faci dacă primești un mesaj de la un necunoscut care îți cere date personale?",
-        choices: ["Îi răspunzi și îi oferi datele cerute", "Îi ceri detalii înainte de a trimite datele", "Îl blochezi și îl raportezi platformei", "Ignori mesajul și nu faci nimic"],
+        choices: ["Îi răspunzi și îi oferi datele cerute", "Îi ceri detalii mai înainte", "Îl blochezi și îl raportezi platformei", "Ignori mesajul și nu faci nimic"],
         hint: "b _ _ c _ _ _ i ",
         answer: 2
 
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "6.png",
         interview: "Ce ar trebui să verifici înainte de a da click pe un link? ",
-        choices: ["Autenticitatea imaginilor care însoțesc linkul", "Dacă mesajul e scris corect gramatical", "Prezența unei o oferte în link", "Dacă linkul conduce către o adresă web sigură, ce începe cu: https:..."],
+        choices: ["Autenticitatea imaginilor care însoțesc linkul", "Dacă e scris corect gramatical", "Prezența unei o oferte în link", "Dacă linkul conduce către o adresă web sigură, ce începe cu: https:..."],
         hint: "h _ _ p _ ",
         answer: 3
     },
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "8.png",
         interview: "Ce este un cookie în contextul navigării pe internet?",
-        choices: ["Un software ce conține viruși", "O aplicație de chat online", "Un fișier ce reține informații despre tine și preferințele tale", "Un tip de reclamă pop-up"],
+        choices: ["Un software ce conține viruși", "O aplicație de chat online", "Un fișier ce reține informații despre preferințele tale", "Un tip de reclamă pop-up"],
         hint: " s _ _ c _ t",
         answer: 2
     },
