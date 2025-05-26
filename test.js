@@ -57,24 +57,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var quiz = [{
         photo: "1.png",
-        interview: "Ce faci dacă primești un mesaj de la un necunoscut care îți cere informații personale?",
-        choices: ["Îi răspunzi imediat și îi dai informațiile cerute", "Îi ceri mai multe detalii despre el înainte de a răspunde", "Îi blochezi numărul și îl raportezi platformei", "Ignori mesajul, dar nu faci nimic altceva"],
+        interview: "Ce faci dacă primești un mesaj de la un necunoscut care îți cere date personale?",
+        choices: ["Îi răspunzi și îi oferi datele cerute", "Îi ceri detalii înainte de a trimite datele", "Îl blochezi și îl raportezi platformei", "Ignori mesajul și nu faci nimic"],
         hint: "b _ _ c _ _ _ i ",
         answer: 2
 
     },
     {
         photo: "2.png",
-        interview: "Cât de des ar trebui să-ți schimbi parolele pentru conturile online?",
-        choices: ["Săptămânal", "O dată la câteva luni", "Niciodată", "Doar dacă ți se pare ceva suspect"],
+        interview: "Cât de des trebuie să schimbi parolele conturilor online?",
+        choices: ["Săptămânal", "O dată la câteva luni", "Niciodată", "Doar dacă suspectezi ceva"],
         hint: " l _ _ i",
         answer: 1
 
     },
     {
         photo: "3.png",
-        interview: "Ce înseamnă phishing în contextul siguranței conturilor online? ",
-        choices: ["Încercarea de a obține informații confidențiale prin înșelăciune", "Un tip de joc online foarte popular", "Un program antivirus nou", "O metodă de a descărca fișiere mai rapid"],
+        interview: "Ce înseamnă phishing în contextul siguranței online? ",
+        choices: ["Obținerea datelor confidențiale prin înșelăciune", "Un joc online foarte popular", "Un program antivirus nou", "O metodă de a descărca rapid fișiere"],
         hint: "c _ n _ _ _ _ n _ _ _ l _ ",
         answer: 0
 
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "4.png",
         interview: "Care este cel mai bun mod de a crea o parolă puternică?",
-        choices: ["Utilizarea numelui și a datei de naștere", "O combinație de litere, cifre și simboluri", "Să folosești un singur cuvânt", "Memorarea aceleași parole pentru toate conturile"],
+        choices: ["Utilizarea numelui și datei nașterii", "O combinație de litere, cifre, simboluri", "Utilizarea unui singur cuvânt", "Prin selectarea aleatorie a 4 cifre"],
         hint: " c _ _ b _ _ _ _ i _",
         answer: 1
 
@@ -90,21 +90,21 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "5.png",
         interview: "Ce informații NU ar trebui să postezi niciodată într-un cont public online?",
-        choices: ["Numele tău de utilizator", "Adresa poștală, nr. telefon, parole, detalii despre programul tău", "O fotografie cu ciocolata preferată", "Hobby-urile preferate"],
+        choices: ["Numele tău de utilizator", "Adresa, nr. de telefon, parolele", "O fotografie cu ciocolata preferată", "Hobby-urile preferate"],
         hint: "_ _ r _ _ a ",
         answer: 1
     },
     {
         photo: "6.png",
         interview: "Ce ar trebui să verifici înainte de a da click pe un link? ",
-        choices: ["Doar dacă linkul conține imagini atractive", "Numai dacă mesajul este scris corect gramatical", "Dacă în link îți este prezentată o ofertă", "Dacă linkul te duce la o adresă web sigură, care începe cu https:..."],
+        choices: ["Autenticitatea imaginilor care însoțesc linkul", "Dacă mesajul e scris corect gramatical", "Prezența unei o oferte în link", "Dacă linkul conduce către o adresă web sigură, ce începe cu: https:..."],
         hint: "h _ _ p _ ",
         answer: 3
     },
     {
         photo: "7.png",
-        interview: "De ce este important să folosești un program software antivirus actualizat?",
-        choices: ["Pentru a detecta și elimina programe malware și viruși", "Fiindcă economisește energia dispozitivului", "Pentru a-ți putea mări viteza de internet", "Deoarece îți permite să descarci jocuri gratuite"],
+        interview: "Pentru ce este util un software antivirus?",
+        choices: ["Detectează și elimină malware și viruși", "Economisește energia dispozitivului", "Mărește viteza de navigare", "Permite descărcarea gratuită a jocurilor"],
         hint: " d _ _ _ _ _ a",
         answer: 0
 
@@ -112,21 +112,21 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "8.png",
         interview: "Ce este un cookie în contextul navigării pe internet?",
-        choices: ["Un fișier dăunător care îți infectează calculatorul", "O aplicație de chat online", "Un fișier stocat pe dispozitivul tău, care reține informații despre tine", "Un tip de reclamă pop-up"],
+        choices: ["Un software ce conține viruși", "O aplicație de chat online", "Un fișier ce reține informații despre tine și preferințele tale", "Un tip de reclamă pop-up"],
         hint: " s _ _ c _ t",
         answer: 2
     },
     {
         photo: "9.png",
-        interview: "De ce e periculos să te întâlnești fizic cu persoane cunoscute online, fără supraveghere?",
-        choices: ["Pentru că ar putea fi plictisitoare", "Deoarece prietenii tăi nu ar fi de acord", "Fiindcă s-ar putea să nu fie pe placul tău", "Pentru că nu știi cu adevărat cine sunt și intențiile lor"],
+        interview: "De ce e periculos să te întâlnești fizic cu cineva cunoscut online, fără supraveghere?",
+        choices: ["Poate fi plictisitor", "Prietenii tăi nu vor fi de acord", "S-ar putea să nu îți placă", "Nu știi ce intenții are"],
         hint: "i _ _ _ _ _ i _ _ e ",
         answer: 3
     },
     {
         photo: "10.png",
-        interview: "Ce ar trebui să faci dacă cineva te hărțuiește online (cyberbullying)?",
-        choices: ["Să salvezi capturi de ecran și să vorbești cu părinții sau profesorii", "Să răspunzi cu mesaje la fel de agresive", "Să îl ignori, sperând că va înceta", "Să îl blochezi și să nu spui nimănui"],
+        interview: "Ce faci dacă cineva te hărțuiește online (cyberbullying)?",
+        choices: ["Salvezi capturi de ecran și vorbești cu părinții", "Răspunzi cu mesaje agresive", "Îl ignori până va înceta", "Îl blochezi și nu spui nimănui"],
         hint: "s _ _ _ e _ i",
         answer: 0
 
