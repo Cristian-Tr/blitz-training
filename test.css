@@ -141,12 +141,6 @@ b {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .quest-num {
-    margin-top: -1rem;
-  }
-}
-
 .hint:focus+div {
   display: block !important;
 }
