@@ -134,8 +134,7 @@ b {
 }
 
 .quest-num {
-  margin-top: -5rem;
-  font-size: 1rem;
+  font-size: 12px;
   color: red;
   text-align: center;
 }

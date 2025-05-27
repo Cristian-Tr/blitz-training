@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var quiz = [{
         photo: "1.png",
         interview: "Ce faci dacă un necunoscut îți cere date personale online?",
-        choices: ["Îi răspunzi și îi oferi datele cerute", "Îi ceri detalii mai înainte", "Îl blochezi și îl raportezi platformei", "Ignori mesajul și nu faci nimic"],
+        choices: ["Îi răspunzi și îi oferi datele cerute", "Îi ceri detalii mai înainte", "Îl blochezi și-l raportezi platformei", "Ignori mesajul și nu faci nimic"],
         hint: "b _ _ c _ _ _ i ",
         answer: 2
 
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "3.png",
         interview: "Ce înseamnă phishing sau smishing în mediul online? ",
-        choices: ["Fraudă prin mesaje online", "Un joc online foarte popular", "Un program antivirus nou", "O metodă de a descărca rapid fișiere"],
+        choices: ["Fraudă prin mesaje online", "Jocuri online foarte populare", "Programe antivirus eficiente", "Metode de download fișiere"],
         hint: "c _ n _ _ _ _ n _ _ _ l _ ",
         answer: 0
 
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "6.png",
         interview: "Ce trebuie să verifici înainte de a da click pe un link? ",
-        choices: ["Autenticitatea imaginilor linkului", "Ortografia linkului", "Prezența unei o oferte în link", "Dacă URL-ul linkului conține https:"],
+        choices: ["Autenticitatea imaginilor linkului", "Ortografia linkului", "Prezența unei o oferte în link", "Dacă URL-ul linkului conține https"],
         hint: "h _ _ p _ ",
         answer: 3
     },
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "8.png",
         interview: "Ce este un cookie în contextul navigării pe internet?",
-        choices: ["Un software ce conține viruși", "O aplicație de chat online", "Un fișier ce memorează preferințele", "Un tip de reclamă pop-up"],
+        choices: ["Un software ce conține viruși", "O aplicație de chat online", "Un fișier ce salvează preferințe", "Un tip de reclamă pop-up"],
         hint: " s _ _ c _ t",
         answer: 2
     },
