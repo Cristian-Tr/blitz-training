@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     {
         photo: "2.png",
-        interview: "Cât de des trebuie să schimbi parolele conturilor online?",
+        interview: "Cât de des trebuie schimbate parolele conturilor online?",
         choices: ["Săptămânal", "O dată la câteva luni", "Niciodată", "Doar dacă suspectezi ceva"],
         hint: " l _ _ i",
         answer: 1
@@ -81,30 +81,30 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     {
         photo: "4.png",
-        interview: "Care este cel mai bun mod de a crea o parolă puternică?",
-        choices: ["Utilizarea numelui și datei nașterii", "O combinație de litere, cifre, simboluri", "Utilizarea unui singur cuvânt", "Prin selectarea aleatorie a 4 cifre"],
+        interview: "Cum poți crea o parolă puternică?",
+        choices: ["Utilizând numele tău", "Folosind litere, cifre, simboluri", "Alegând un cuvânt scurt", "Selectând aleatoriu 4 cifre"],
         hint: " c _ _ b _ _ _ _ i _",
         answer: 1
 
     },
     {
         photo: "5.png",
-        interview: "Ce informații NU ar trebui să postezi niciodată într-un cont public online?",
+        interview: "Ce informații NU trebuie să postezi într-un cont public online?",
         choices: ["Numele tău de utilizator", "Adresa, nr. de telefon, parolele", "O fotografie cu ciocolata preferată", "Hobby-urile preferate"],
         hint: "_ _ r _ _ a ",
         answer: 1
     },
     {
         photo: "6.png",
-        interview: "Ce ar trebui să verifici înainte de a da click pe un link? ",
-        choices: ["Autenticitatea imaginilor care însoțesc linkul", "Dacă e scris corect gramatical", "Prezența unei o oferte în link", "Dacă URL-ul linkului începe cu https://..."],
+        interview: "Ce trebuie să verifici înainte de a da click pe un link? ",
+        choices: ["Autenticitatea imaginilor care însoțesc linkul", "Corectitudinea gramaticală a linkului", "Prezența unei o oferte în link", "Dacă URL-ul linkului începe cu https://"],
         hint: "h _ _ p _ ",
         answer: 3
     },
     {
         photo: "7.png",
         interview: "Pentru ce este util un software antivirus?",
-        choices: ["Detectează și elimină malware și viruși", "Economisește energia dispozitivului", "Mărește viteza de navigare", "Permite descărcarea gratuită a jocurilor"],
+        choices: ["Detectează și elimină viruși", "Economisește energia dispozitivului", "Mărește viteza de navigare", "Permite descărcarea gratuită a jocurilor"],
         hint: " d _ _ _ _ _ a",
         answer: 0
 
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     {
         photo: "9.png",
-        interview: "De ce e periculos să te întâlnești fizic cu cineva cunoscut online, fără supraveghere?",
+        interview: "De ce e periculos să întâlnești pe cineva cunoscut online?",
         choices: ["Poate fi plictisitor", "Prietenii tăi nu vor fi de acord", "S-ar putea să nu îți placă", "Nu știi ce intenții are"],
         hint: "i _ _ _ _ _ i _ _ e ",
         answer: 3
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         photo: "10.png",
         interview: "Ce faci dacă cineva te hărțuiește online (cyberbullying)?",
-        choices: ["Salvezi capturi de ecran și vorbești cu părinții", "Răspunzi cu mesaje agresive", "Îl ignori până va înceta", "Îl blochezi și nu spui nimănui"],
+        choices: ["Salvezi capturi de ecran și anunți părinții", "Răspunzi cu mesaje agresive", "Îl ignori până va înceta", "Îl blochezi și nu spui nimănui"],
         hint: "s _ _ _ e _ i",
         answer: 0
 

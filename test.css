@@ -42,7 +42,7 @@ b {
 @media (min-width: 768px) {
   .title {
     padding: 1px;
-    width: 710px;
+    max-width: 710px;
   }
 }
 
@@ -55,7 +55,7 @@ b {
 @media (min-width: 768px) {
   .quiz {
     padding: 1px;
-    width: 710px;
+    max-width: 710px;
   }
 }
 
@@ -98,7 +98,7 @@ b {
 }
 
 .options>div>div>h5 {
-  font-weight: 100;
+  font-weight: 800;
   background: gold;
   text-align: center;
   color: red;
