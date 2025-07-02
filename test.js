@@ -1,31 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-    // Stars field
-    window.onload = function () {
-
-        var pageContainer = this.document.getElementById("quiz");
-        var width = pageContainer.clientWidth;
-        var height = pageContainer.clientHeight;
-        // Random stars
-        for (let i = 0; i < 500; i++) {
-            var starX = Math.random() * 99.5;
-            var starY = Math.random() * 96;
-
-            if (starX < width && starY < height) {
-                let star = this.document.createElement('div');
-                star.style.width = "0.01em";
-                star.style.height = "0.01em";
-                star.style.background = "white";
-                star.style.position = "absolute";
-                star.style.top = starY + "%";
-                star.style.left = starX + "%";
-                star.style.borderRadius = "50%";
-
-                pageContainer.appendChild(star);
-            }
-        }
-    };
 
     const image = document.querySelector(".quizImage img");
     const question = document.querySelector(".quizQuestion b");
@@ -125,8 +100,8 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     {
         photo: "10.png",
-        interview: "Ce faci dacă cineva te hărțuiește online (cyberbullying)?",
-        choices: ["Arăți părinților toate mesajele", "Răspunzi cu mesaje agresive", "Îl ignori până va înceta", "Îl blochezi și nu spui nimănui"],
+        interview: "Cum afli dacă ai accesat site-ul original al unei bănci?",
+        choices: ["Verifici denumirea domeniului", "Apelezi numărul publicat pe site", "Trimiți mesaj la adresa indicată", "Te loghezi în contul tău de pe site"],
         hint: "s _ _ _ e _ i",
         answer: 0
 
@@ -250,9 +225,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     init();
-
-
-
 
 
 
